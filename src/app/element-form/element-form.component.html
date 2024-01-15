@@ -1,0 +1,37 @@
+<form class="flex flex-col justify-center items-center gap-3">
+    <span class="text-big mb-3">Formulario</span>
+    <div class="flex flex-row gap-8">
+        <div class="flex flex-col gap-3">
+            <label for="nombre">Nombre del elemento:</label>
+            <label for="descripcion">Descripción del elemento:</label>
+            <label for="nserie">Número de serie del elemento:</label>
+            <label for="estado">Estado:</label>
+            <label for="prioridad">Prioridad:</label>
+        </div>
+        <div class="flex flex-col gap-3">
+            <input class="format-input" name="nombre" type="text">
+            <input class="format-input" name="descripcion" type="text">
+            <input class="format-input" name="nserie" type="text">
+            <input name="estado" type="checkbox" value="activo">
+            <div class="flex flex-row justify-center items-center gap-5">
+                <div class="flex gap-1">
+                    <input name="prioridad" type="radio" value="alta">
+                    <span>Alta</span>
+                </div>
+                <div class="flex gap-1">
+                    <input name="prioridad" type="radio" value="media">
+                    <span>Media</span>
+                </div>
+                <div class="flex gap-1">
+                    <input name="prioridad" type="radio" value="baja">
+                    <span>Baja</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-2 mt-2">
+        <button class="btn-aceptar w-28">Enviar</button>
+        <button class="btn-normal w-28">Limpiar</button>
+        <button class="btn-cancelar w-28">Cancelar</button>
+    </div>
+</form>

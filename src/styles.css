@@ -5,7 +5,7 @@
 
 @layer components {
     .btn-normal {
-        @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+        @apply w-60 py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
     }
 
     .btn-aceptar {
@@ -14,5 +14,17 @@
 
     .btn-cancelar {
         @apply py-2 px-4 bg-[#ff0000] text-white font-semibold rounded-lg shadow-md hover:bg-[#c3292e] focus:outline-none focus:ring-2 focus:ring-[#ff3b1f] focus:ring-opacity-75;
+    }
+
+    .text-big {
+        @apply text-3xl text-center;
+    }
+
+    .format-input {
+        @apply w-72 text-center border border-solid border-gray-400 rounded-xl;
+    }
+
+    .subrayar {
+        @apply text-blue-400 hover:underline hover:text-blue-800;
     }
 }
