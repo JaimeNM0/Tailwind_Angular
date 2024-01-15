@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-normal {
+        @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+    }
+
+    .btn-aceptar {
+        @apply py-2 px-4 bg-[#00913f] text-white font-semibold rounded-lg shadow-md hover:bg-[#008130] focus:outline-none focus:ring-2 focus:ring-[#48a45e] focus:ring-opacity-75;
+    }
+
+    .btn-cancelar {
+        @apply py-2 px-4 bg-[#ff0000] text-white font-semibold rounded-lg shadow-md hover:bg-[#c3292e] focus:outline-none focus:ring-2 focus:ring-[#ff3b1f] focus:ring-opacity-75;
+    }
+}
