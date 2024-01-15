@@ -18,11 +18,16 @@ module.exports = {
       rojoOscuro: '#c3292e',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      sans2: ['Merriweather', 'serif'],
+      fontSans: ['sans-serif', 'Graphik'],
+      fontSerif: ['serif', 'Merriweather'],
+      fontMonospace: ['monospace', 'Arial'],
     },
+    /*fontSize: {
+      titulo: '14px',
+      enlace: '18px',
+      textoInput: '24px',
+    },*/
     extend: {},
   },
   plugins: [],
 }
-
